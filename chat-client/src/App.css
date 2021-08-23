@@ -1,0 +1,49 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(250, 246, 246);
+  margin: 0;
+}
+
+@media (max-aspect-ratio: 7/10 ) {
+  .joinContainer{
+    width: 80% !important;
+    height: 75% !important;
+  }
+  .logo{
+    width: 35vmax !important;
+    margin-top: 25px !important;
+  }
+  #joinInput {
+    margin-top: 45px !important;
+    width: 25vmax !important;
+    font-size: 2.5vmax !important;
+  }
+  .loginBtn {
+    width: 25vmax !important;
+    font-size: 2.5vmax !important;
+  }
+  .chatContainer {
+    height: 100% !important;
+    width: 100% !important;
+  }
+  .headerBox {
+    height: 10% !important;
+    background-color: rgb(194, 248, 0);
+  }
+  .headerBox > h2 {
+    font-size: 2.5vmax !important;
+  }
+  .logoutBtn {
+    font-size: 2.5vmax !important;
+  }
+  #chatInput {
+    width: 90% !important;
+    font-size: 2.5vmax !important;
+  }
+}

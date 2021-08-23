@@ -1,0 +1,24 @@
+.message {
+    color: rgb(0, 0, 0);
+    width: 70%;
+    padding: .7vmax;
+    margin: 1vmax;
+    border-radius: 0.5vmax;
+    display: inline-block;
+    clear: both;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+}
+
+.right {
+    float: right;
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+.left {
+    float: left;
+    background-color: rgb(128, 209, 128);
+    text-align: left;
+}

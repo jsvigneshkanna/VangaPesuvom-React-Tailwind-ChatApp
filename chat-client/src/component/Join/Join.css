@@ -1,0 +1,59 @@
+.joinPage{
+    background-color: #ffe6ff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinContainer{
+    height: 50%;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #ff0000;
+    background-color: #663399;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 10px;
+    width: 13vmax;
+}
+
+.joinContainer > h2 {
+    color: white;
+    font-size: 2.5vmax;
+}
+
+#joinInput {
+    margin-top: 10px;
+    width: 20vmax;
+    padding: 0.8vmax;
+    border: none;
+    border-radius: 3px;
+    font-size: 1vmax;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.loginBtn {
+    width: 20vmax;
+    padding: 0.8vmax;
+    border: none;
+    border-radius: 3px;
+    font-size: 1vmax;
+    background-color: red;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.loginBtn:hover {
+    background-color: rgb(103, 236, 14);
+    color: black;
+}
